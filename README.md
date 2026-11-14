@@ -29,7 +29,7 @@ Graduation project · **BattLeDIM 2018** benchmark · **L-Town** network · inte
 
 <br>
 
-### 🌐 [**Live demo →**](https://YOUR-APP-NAME.streamlit.app) &nbsp;·&nbsp; 📓 [Notebook](Notebooks/Where_Is_The_Leak.ipynb)
+### 🌐 [**Live demo →**](https://where-is-the-leak.streamlit.app/) &nbsp;·&nbsp; 📓 [Notebook](Notebooks/Where_Is_The_Leak.ipynb)
 
 </div>
 
