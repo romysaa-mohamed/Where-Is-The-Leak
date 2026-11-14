@@ -29,7 +29,7 @@ Graduation project · **BattLeDIM 2018** benchmark · **L-Town** network · inte
 
 <br>
 
-### 🌐 [**Live demo →**](https://YOUR-APP-NAME.streamlit.app) &nbsp;·&nbsp; 📓 [Notebook](Notebooks/Where_Is_The_Leak_fixed.ipynb)
+### 🌐 [**Live demo →**](https://YOUR-APP-NAME.streamlit.app) &nbsp;·&nbsp; 📓 [Notebook](Notebooks/Where_Is_The_Leak.ipynb)
 
 </div>
 
@@ -67,7 +67,7 @@ Where-Is-The-Leak/
 │   └── README.txt                       #   original dataset notes
 │
 ├── 📁 Notebooks/
-│   └── Where_Is_The_Leak_fixed.ipynb    # exploration, preprocessing, modeling, evaluation
+│   └── Where_Is_The_Leak.ipynb    # exploration, preprocessing, modeling, evaluation
 │
 ├── 📁 artifacts/                        # written by the notebook
 │   ├── prepared_data.joblib             #   train/val/test features + labels + selected features + config
@@ -344,7 +344,7 @@ The app looks for the models, the `Dataset` folder and `L-TOWN.inp` next to `app
 ```bash
 pip install jupyter matplotlib seaborn scikit-learn==1.6.1 pandas numpy joblib
 cd Where-Is-The-Leak/Notebooks
-jupyter notebook Where_Is_The_Leak_fixed.ipynb
+jupyter notebook Where_Is_The_Leak.ipynb
 ```
 
 Run the cells from top to bottom. The notebook finds `Dataset/` in its parent folder and writes everything to `artifacts/`. Copy the new `water_leakage_models.joblib` into `Water_Leakage_App/` to use it in the dashboard.
